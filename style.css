@@ -1,0 +1,40 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(128, 128, 128);
+    /* color: black; */
+}
+
+h1{
+    color: rgb(246, 250, 185);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 10vh;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+}
+p{
+    font-size: 2vw;
+}
+.main{
+    top: 10vh;
+    display: inline;
+    position: relative;
+    text-align: center;
+}
+header{
+    position: relative;
+    display: inline;
+    text-align: center;
+    color: red;
+}
+button{
+    background-color: rgb(127, 214, 127);
+    font-size: 20px;
+    border-radius: 2vw;
+}
+button:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}
